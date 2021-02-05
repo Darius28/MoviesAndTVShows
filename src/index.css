@@ -1,0 +1,98 @@
+body{
+    background-color: #051622;
+    color: #DEB992;
+}
+
+#navLayout{
+    position: fixed;
+    display: grid;
+    z-index: 1;
+    width: 100%;
+    background-color: #051622;
+    color: white;
+    grid-template-columns: 10vw 1fr 80px 80px 80px 80px 10vw;
+}
+
+.navHeight{
+    height: 65px;
+}
+
+.navItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navHeader{
+    display: flex;
+    margin: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navItem > a {
+    text-decoration: none;
+    color: #1BA098;
+}
+
+.navItem > a:hover {
+    color: #ffc107;
+    transition: 0.3s;
+}
+
+.flex{
+    display: flex;
+}
+
+.marginAuto{
+    margin: auto;
+}
+
+.fontLS{
+    font-family: 'Londrina Solid', cursive;
+}
+
+.movieCard{
+    margin: auto;
+    height: 400px;
+    border: 1px solid #1BA098;
+    border-radius: 15px;
+    padding: 20px;
+    width: 27vw;
+    white-space: normal;
+    overflow: auto;
+}
+
+.introGrid {
+    height: 200px;
+    width: 400px;
+    border: 3px solid #1BA098;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px lightgrey; 
+    border-radius: 3px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 5px;
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: lightgrey;
+}
